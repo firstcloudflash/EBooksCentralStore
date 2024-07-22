@@ -1,15 +1,20 @@
+EBooksCentralStore/
+│
+├── index.html
+├── style.css
+├── script.js
 index.html, 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adam's eBooks</title>
+    <title>EBooksCentralStore</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Adam's eBooks</h1>
+        <h1>EBooksCentralStore</h1>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -19,7 +24,7 @@ index.html,
         </nav>
     </header>
     <section id="home">
-        <h2>Welcome to Adam's eBooks</h2>
+        <h2>Welcome to EBooksCentralStore</h2>
         <p>Find the best eBooks here!</p>
     </section>
     <section id="ebooks">
@@ -41,12 +46,11 @@ index.html,
         </form>
     </section>
     <footer>
-        <p>&copy; 2024 Adam's eBooks. All rights reserved.</p>
+        <p>&copy; 2024 EBooksCentralStore. All rights reserved.</p>
     </footer>
     <script src="script.js"></script>
 </body>
 </html>
-
 style.css,
 body {
     font-family: Arial, sans-serif;
